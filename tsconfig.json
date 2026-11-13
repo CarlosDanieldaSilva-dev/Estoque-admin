@@ -1,0 +1,21 @@
+
+
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "ES2020",
+        "rootDir": "./typescript",
+        "outDir": "./js",
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "removeComments": false,
+        "sourceMap": true
+    },
+    "include": [
+        "typescript/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
